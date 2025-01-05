@@ -18,7 +18,7 @@ End
 > 
 Interface vlan1
 Ip address 192.168.10.2 255.255.255.0
-Ipv6 address 2001:db8:abcd:0010::1
+Ipv6 address 2001:db8:abcd:0010::1/64
 No shutdown 
 Ip default-gateway 192.168.10.1
 >
