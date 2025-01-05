@@ -1,6 +1,4 @@
-CONFIGURATE CISCO ROUTER 4321WachtwoordenConsole: PXL
-Priv Exec Mode: Cisco
-SSH: WPLConfigHostname CiscoRouter4321
+Hostname CiscoRouter4321
 >
 Line console 0
 Password PXL
@@ -27,4 +25,4 @@ Interface Gig0/0/1
 Ip address 192.168.10.129 255.255.255.0
 Ipv6 address 2001:db8:abcd:0010:8000::1
 No shutdown 
->
+>
