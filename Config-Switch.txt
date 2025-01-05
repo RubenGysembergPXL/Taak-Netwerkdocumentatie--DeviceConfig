@@ -1,6 +1,4 @@
-CONFIGURATIE SWITCH1WachtwoordenConsole: PXL
-Priv Exec Mode: Cisco
-SSH: WPLConfigHostname Switch1
+Hostname Switch1
 >
 Line console 0
 Password PXL
@@ -23,5 +21,4 @@ Ip address 192.168.10.2 255.255.255.0
 Ipv6 address 2001:db8:abcd:0010::1
 No shutdown 
 Ip default-gateway 192.168.10.1
->
-
+>
