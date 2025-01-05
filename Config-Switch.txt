@@ -1,0 +1,27 @@
+CONFIGURATIE SWITCH1WachtwoordenConsole: PXL
+Priv Exec Mode: Cisco
+SSH: WPLConfigHostname Switch1
+>
+Line console 0
+Password PXL
+Login
+>
+Enable Secret Cisco
+>
+Service password-encryption 
+>
+Ip domain-name PXL.be
+Crypto key generate rsa general-keys modulus 1024
+Username Beheerder password WPL
+Line vty 4 
+Transport input ssh
+Login local 
+End 
+> 
+Interface vlan1
+Ip address 192.168.10.2 255.255.255.0
+Ipv6 address 2001:db8:abcd:0010::1
+No shutdown 
+Ip default-gateway 192.168.10.1
+>
+
